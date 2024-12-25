@@ -1,6 +1,6 @@
 # Car Racing with PPO using Gymnasium
 
-This project trains and tests an AI agent to play the CarRacing-v0 environment using Proximal Policy Optimization (PPO) from Stable-Baselines3. The environment is powered by Gymnasium, and the project includes both training and testing workflows.
+This project trains and tests an AI agent to play the CarRacing-v3 environment using Proximal Policy Optimization (PPO) from Stable-Baselines3. The environment is powered by Gymnasium, and the project includes both training and testing workflows.
 
 ## Requirements
 
@@ -34,7 +34,7 @@ pip install gymnasium[box2d] stable-baselines3 pyglet==1.3.2
    ```python
    import gymnasium as gym
 
-   environment_name = "CarRacing-v0"
+   environment_name = "CarRacing-v3"
    env = gym.make(environment_name)
    ```
 
